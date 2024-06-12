@@ -1,0 +1,59 @@
+new project upload for github
+	git init
+	git add .
+	git commit -m 'commit'
+	git remote origin master 'github url'
+	git push -u origin master
+
+update full project for github
+	git add .
+	git commit -m 'commit'
+	git push
+
+update single file for github
+	git add 'filepath'
+	git commit -m 'commit'
+	git push
+
+download to remote repository to local repository
+
+	git clone 'github url'
+git branch command
+	git checkout -b branchName (create new branch)
+	git checkout branchName (switch to branch)
+	git branch -d branchName (delete branch)
+	git branch -M branchName (rename branchName)
+	git branch (which branch at the time)
+
+	git status (check update)
+	clear (clear terminal)
+
+	git merge branchName (merge to branches)
+	git diff branchName (compare 2 branches)
+
+re-download remote repository to local repository
+	git pull origin branchName
+
+rough copy of code
+	github -> fork -> createfork
+
+create new directory
+	mkdir fileName
+
+undoing changes
+	git reset filename   (by mistake add code)
+	git reset
+	
+	git reset HEAD~1 (by mistake add and commit code)
+	git reset <commit hash> (back for many comment code)
+
+
+
+
+
+
+
+
+
+
+
